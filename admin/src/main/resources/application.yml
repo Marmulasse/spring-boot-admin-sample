@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-admin
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+  mail:
+    host: smtp.gmail.com
+  boot:
+    admin:
+      url: http://localhost:7070
+      notify.mail.to: david.panza@gmail.com
+server:
+  port: 7070

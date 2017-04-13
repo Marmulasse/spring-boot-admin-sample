@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-app1
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        enabled: false
+      enabled: false
+
+server:
+  port: 8181
